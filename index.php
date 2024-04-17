@@ -1,0 +1,15 @@
+ <html>
+ <head></head>
+ <body>
+ <?php
+require_once("ekle_sil.php"); 
+require_once("listele.php");
+klasor_ekle("Kayitlar");
+klasor_ekle("Kayitlar/Yasir");
+klasor_ekle("Kayitlar/Selman");
+klasor_listele("Kayitlar");
+klasor_sil("Kayitlar/Yasir");
+klasor_sil("Kayitlar/Selman");
+?>
+</body>
+</html>
